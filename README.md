@@ -13,7 +13,8 @@ This stage tries to suppress as much noise present in the inputs before sending 
 <h3>Actice Filter/Amplifier</h3>
 Here, I've designed an active bandpass filter, thus picking out the frequencies only relavant to typical electrocardiac signals(around 1Hz-50Hz). The Amplifier thus then amplify the "clean" signal by the factor of 10. 
 *It is imporant to put the amplifier after the bandpass filter, as putting it before will amplify unncessary signals, thus leading to more consumption of power of the circuit. 
-
+<h3>Pin connector</h3>
+It uses the typical female 3 leg 3.5mm audio connector. The electrodes with the appropriate male connector will be connected to it. 
   
 <h2>PCB Design</h2>
 <img width="668" alt="ekg_pcb" src="https://github.com/user-attachments/assets/dcedaf93-6d46-499c-8066-35a59a329e05">
