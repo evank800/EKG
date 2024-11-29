@@ -29,6 +29,16 @@ This PCB design utilizes the 4 layer structure, where the second layer is used f
 <img src="https://github.com/user-attachments/assets/c81cefa6-25c9-413a-9d58-191339361807">
 
 <h2>Obstacles</h2>
+<h3>Reference Voltage isn't exact</h3>
+I have expected the Rereference voltage to be exactly half of the output voltage 3.3V, but it happened to be significantly higher(more in the 2V region)
 
+<h3>Difficulty getting the amplification right</h3>
+I have decided to use mountalbe resistors in the preamplifying stage, in order to test out different amplification factors, but even with this foreseen mitigation, I was not able to get the desired amount of amplification. 
+
+<h3>Possible Stability problems</h3>
+An overshoot in voltages were observed in different parts of the circuit. I was not able determine whether this was due to the inherent instability of the circuit, or due to the false handling of PLI(power line interference).
+
+<h3>Power line intereference</h3>
+In regard to PLI, one possible solution would be to add a RLD(right leg drive) circuit, thus cancelling out the effects of the power line by feeding the body destructive voltage. 
 
 
