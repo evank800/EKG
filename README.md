@@ -12,6 +12,8 @@ This circuit halve the supply output voltage through the means of voltage divide
 This stage tries to suppress as much noise present in the inputs before sending them into an instrumentation op amp, cancelling out any common bias present in both inputs and amplifying the output a certain factor(depends on the mountable resistors) 
 <h3>Actice Filter/Amplifier</h3>
 Here, I've designed an active bandpass filter, thus picking out the frequencies only relavant to typical electrocardiac signals(around 1Hz-50Hz). The Amplifier thus then amplify the "clean" signal by the factor of 10. 
+*It is imporant to put the amplifier after the bandpass filter, as putting it before will amplify unncessary signals, thus leading to more consumption of power of the circuit. 
+
   
 <h2>PCB Design</h2>
 <img width="668" alt="ekg_pcb" src="https://github.com/user-attachments/assets/dcedaf93-6d46-499c-8066-35a59a329e05">
