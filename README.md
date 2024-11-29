@@ -1,5 +1,6 @@
 <h1>EKG Design</h1>
-
+<h2>Description</h2>
+This is my attempt at designing a lightweight EKG machine from scratch. This PCB design utilizes the 4 layer structure, where the second layer is used for copper pour for power and the third layer for ground to reduce parasitic impednaces. This is a simpler and more robust design compared to the conventional 2 layer structure. 
 <h2>Schemetic</h2>
 <img width="570" alt="EKG_schem" src="https://github.com/user-attachments/assets/6b83ed2b-61d0-4dab-9994-3aac9c9dace0">
 
