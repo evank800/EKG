@@ -39,6 +39,10 @@ I have decided to use mountalbe resistors in the preamplifying stage, in order t
 An overshoot in voltages were observed in different parts of the circuit. I was not able determine whether this was due to the inherent instability of the circuit, or due to the false handling of PLI(power line interference).
 
 <h3>Power line intereference</h3>
-In regard to PLI, one possible solution would be to add a RLD(right leg drive) circuit, thus cancelling out the effects of the power line by feeding the body destructive voltage. 
+In regard to PLI, one possible solution would be to add a RLD(right leg drive) circuit, thus cancelling out the effects of the power line by feeding the body with destructive voltage. 
 
+<h3>Putting the electrodes on the right spot</h3>
+
+<h2>Conclusion</h2>
+This circuit has been proven thus far unable to perform practical functions of an ekg and it which should be further developed with various mitigations to the obstacles mentioned above.  
 
